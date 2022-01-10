@@ -14,7 +14,7 @@ console.log (1 == false)
 console.log (1 == true)
 console.log (area==false)
 
-// null
+// null (bug, salvo como objeto)
 // undefined
 let teste1;
 let teste2= null;
