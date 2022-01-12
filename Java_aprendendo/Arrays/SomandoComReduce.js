@@ -14,4 +14,4 @@
 
     console.log (`A média da sala de JavaScript é ${mediasala(SalaJS)} 
 A média da sala de Java é ${mediasala(SalaJava)} 
-A média da sala de python é ${mediasala(SalaPython)}`);
+A média da sala de python é ${mediasala(SalaPython)}`); //helo
