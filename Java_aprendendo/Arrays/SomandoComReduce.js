@@ -15,3 +15,14 @@
     console.log (`A média da sala de JavaScript é ${mediasala(SalaJS)} 
 A média da sala de Java é ${mediasala(SalaJava)} 
 A média da sala de python é ${mediasala(SalaPython)}`); //helo
+// outra forma de escrever o reduce
+const soma = numeros.reduce(function (acum, atual) {
+    return atual + acum
+   }, 0)
+   // mais uma forma de escrever o reduce
+   function operacaoNumerica(acum, atual) {
+    return atual + acum
+   }
+   
+   const soma = numeros.reduce(operacaoNumerica, 0)
+   // O reduce() roda o loop no array “por baixo dos panos”, executando para cada elemento a instrução passada na função operacaoNumerica.
